@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/imgs/WhatsApp\ Image\ 2024-06-04\ at\ 10.56.56\ AM.jpeg) center / cover no-repeat fixed;
+    font: 1em/1.618 Inter,sans-serif;
+
+}
+
+form{
+   
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    /* height: 50vh; */
+    padding: 35px;
+    font-size: 15px;
+    color: beige;
+    border: 1px solid rgba(rgb(114, 98, 98), rgb(86, 112, 86), rgb(89, 89, 95),255);
+    border-radius: 20px;
+    background-color: rgb(67, 52, 134);
+    box-shadow: 0 0 10px ;
+    margin: 50px;
+
+}
+
+.buttons{
+    display: flex;
+    margin-top: 55px;
+    align-items: center;
+}
+
+input[type="submit"]{
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+
+}
+
+#no{
+    background-color: rgb(254, 65, 65);
+    color: aliceblue;
+}
+
+#yes{
+    background-color: rgb(11, 224, 11);
+    color: aliceblue;
+}

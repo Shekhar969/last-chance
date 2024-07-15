@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marriage Conformation Form</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form action="process.php" method="post">
+        <div class="candi">
+            <label for="candi"> Available Boyfriend :</label>
+            <select class="inputboxs" name="candi" id="">
+                <option value="sr">SHEKHAR SINGH RAWAL</option>
+                <!-- <option value="ak">Aru kta lai harxas kukur</option>
+                <option value="cc">Chup chap malai Select Gar</option> -->
+            </select>
+
+            <div class="slider">
+                <div class="slides">
+                  <div class="slide">
+                    <img src="/imgs/1.jpeg" alt="Image 1">
+                </div>
+                  <div class="slide">
+                    <img src="/imgs/2.jpeg" alt="Image 1">
+                </div>
+                  <div class="slide">
+                    <img src="/imgs/3.jpeg" alt="Image 1">
+                </div>
+                  <div class="slide">
+                    <img src="/imgs/4.jpeg" alt="Image 1">
+                </div>
+              
+                  <div class="slide">
+                    <img src="/imgs/5.jpeg" alt="Image 1">
+                </div>
+              
+              
+              </div>
+        </div>
+<div class="inputdatas">
+          <div>
+            <label for="GENDER"> <h3>Your Information</h3></label>
+            <label for="mr">Mr.</label>
+            <input type="radio" name="gen" id="mr" value="Mr.">
+            <label for="mrs">Mrs.</label>
+            <input type="radio" name="gen" id="mrs" value="Mrs.">
+            <label for="bio">Bio.</label>
+            <input type="radio" name="gen" id="bio" value="Bio.">
+            <label for="homo">Homo.</label>
+            <input type="radio" name="gen" id="homo" value="Homo.">
+            <label for="try">Try.</label>
+            <input type="radio" name="gen" id="try" value="Try.">
+            <label for="kitchen">Kitchen.</label>
+            <input type="radio" name="gen" id="kitchen" value="Kitchen.">
+            <label for="helicopter">Battle Helicopter.</label>
+            <input type="radio" name="gen" id="helicopter" value="Battle Helicopter.">
+            <label for="mailbox">Mail Box.</label>
+            <input type="radio" name="gen" id="mailbox" value="Mail Box.">
+        </div>
+        <br>
+        <div class="personalinfo">
+        <div>
+            <label for="fname">First Name:</label>
+            <input class="inputbox" type="text" name="fname" placeholder="NAME OF PRINCESS">
+        </div>
+        <div>
+            <label for="mname">Middle Name:</label>
+            <input class="inputbox" type="text" name="mname" placeholder="Middle NAME OF PRINCESS">
+        </div>
+        <div>
+            <label for="lname">Last Name:</label>
+            <input class="inputbox" type="text" name="lname" placeholder="Last NAME OF PRINCESS">
+        </div>
+        <div>
+            <label for="dob">Date Of Birth:</label>
+            <input class="inputbox" type="date" name="dob">
+        </div>
+        <div>
+            <label for="age">AGE:</label>
+            <input style="width: 30px;" class="inputbox" type="number" name="age" placeholder="AGE">
+            <label for="height">Height:</label>
+            <input style="width: 40px;" class="inputbox" type="text" name="height" placeholder="Height">
+            <label for="weight">Weight:</label>
+            <input style="width: 40px;" class="inputbox" type="text" name="weight" placeholder="Weight">
+        </div>
+        <div>
+            <label for="contact">Number:</label>
+            <input style="width: 120px;" class="inputbox" type="number" name="contact" placeholder="Contact NUMBER">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input style="width: 200px;" class="inputbox" type="email" name="email" placeholder="Personal Mail">
+        </div>
+        <div>
+            <label for="guardian">Guardian Name:</label>
+            <input class="inputbox" type="text" name="guardian" placeholder="Guardian OF PRINCESS">
+        </div>
+        <div>
+            <label for="guardian_contact">Guardian Number:</label>
+            <input required style="width: 120px;" class="inputbox" type="number" name="guardian_contact" placeholder="Contact NUMBER">
+        </div>
+
+        
+        <div class="">
+            <label for="input_file"> Proof of Existence (IMG) :
+                <input type="file" accept="image/*" id="input_file" width="200px">
+            </label>
+        </div>
+    </div>
+
+
+        <div class="buttons">
+            <input style="justify-content: center;" class="inputboxs" type="submit" class="btn" value="Submit">
+        </div>
+    </div>
+  
+    </form>
+</body>
+</html>

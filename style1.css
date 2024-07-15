@@ -1,0 +1,129 @@
+body{
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 0;
+    background-color: rgb(213, 198, 236);
+}
+.ag-container{
+  margin: 50px;
+
+}
+.off{
+
+    background-color: rgb(238, 201, 235);
+    border-radius: 15px;
+    margin:12px;
+    font-size: larger;
+    border: 2px solid rgb(201, 180, 223);
+   font-family: monospace;
+   font-weight: 600;
+   text-align: center;
+   word-spacing: 2px;
+   box-shadow: 4px 1px 3px  black;
+   color: rgb(151, 113, 115);
+}
+
+.agg{
+    padding: 5px;
+    font-style: italic;
+    font-size: large;
+}
+
+.btn{
+    background-color: rgb(223, 211, 217);
+    border: 2px solid plum;
+    border-radius: 10px;
+    font-size: medium;
+}
+
+.candi{
+    font-style: bold;
+    font-weight: 800;
+    margin: 10px;
+    font-size: large;
+}
+
+.inputboxs{
+    margin: 10px 5px;
+    font-size: 20px;
+    cursor:grabbing;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px ;
+    background: transparent;
+}
+.inputbox{
+    margin: 5px 5px;
+    padding: 2px;
+    font-size: small;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px ;
+    background: transparent;
+    
+    
+}
+label{
+  font-size: m;
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* 
+.slider {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  } */
+
+  .slider {
+    width: 100%;
+    max-height: 900px;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid #ccc; /* Optional: for better visibility of the slider */
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%; /* Ensure it doesn't overflow */
+  }
+  
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    /* margin-top: 20px; */
+  }
+  
+  .slide img {
+    width: 100%;
+    display: block;
+    height: 90%;
+  }
+
+  .inputdatas{
+text-align: center;
+  }
+  .personalinfo{
+    display: grid;
+justify-content: center;
+align-items: center;
+
+  }
+
+  .personalinfo div{
+    margin: 5px 0;
+  }
