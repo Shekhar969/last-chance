@@ -19,7 +19,7 @@ form{
     color: beige;
     border: 1px solid rgba(rgb(114, 98, 98), rgb(86, 112, 86), rgb(89, 89, 95),255);
     border-radius: 20px;
-    background-color: rgb(67, 52, 134);
+    background: none;
     box-shadow: 0 0 10px ;
     margin: 50px;
 
