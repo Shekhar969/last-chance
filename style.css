@@ -2,7 +2,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(/imgs/WhatsApp\ Image\ 2024-06-04\ at\ 10.56.56\ AM.jpeg) center / cover no-repeat fixed;
+    background: url(imgs/WhatsApp\ Image\ 2024-06-04\ at\ 10.56.56\ AM.jpeg) center / cover no-repeat fixed;
     font: 1em/1.618 Inter,sans-serif;
 
 }
